@@ -1,0 +1,24 @@
+Ex1 = print "Hello World"
+Ex2 = #comments
+Ex3 = 
++ plus
+- minus
+/ slash
+* asterisk
+% percent
+< less-than
+> greater-than
+<= less-than-equal
+>= greater-than-equal
+
+Ex4 = Variables and Names
+cars = 100
+print "There are", cars, "cars available."
+
+Ex5 = 
+
+my_name = "Shawn C"
+my_age = 27
+
+print "Let's talk about %s." % my_name
+print "He's %s years old" % my_age
