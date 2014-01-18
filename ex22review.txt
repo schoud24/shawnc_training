@@ -22,3 +22,102 @@ my_age = 27
 
 print "Let's talk about %s." % my_name
 print "He's %s years old" % my_age
+
+Ex6 = 
+
+x = "There are %d types of people." % 10
+
+Ex7 = 
+
+print "." * 10 # this gives you 10 dots
+print end1 + end2 + end3 # this gives you strings and puts them together.
+print end4 + end5 + end6, 
+print end7 + end8 + end9  # the comma and the enter space gives you the space between the two variable characters
+# however, if you didn't have the comma, it would show up as a new line
+
+Ex8 = strings in new lines are kept together with a space via comma
+
+""" gives you a comment """
+
+Ex9 = Why do the \n newlines not work when I use %r?
+That's how %r formatting works; it prints it the way you wrote it (or close to it). It's the "raw" format for debugging.
+
+Ex10 = "I am 6'2\" tall."  # escape double-quote inside string
+'I am 6\'2" tall.'  # escape single-quote inside string
+
+tabby_cat = "\tI'm tabbed in."
+
+Ex11 = 
+
+print "How old are you?",
+age = raw_input()
+print "How tall are you?",
+height = raw_input()
+
+print "So you're %r old and %r tall." %(age, height)
+
+Ex12 =
+
+age = raw_input("How old are you? ")
+
+Ex13 = from sys import argv
+
+script, first, second, third = argv
+
+print "script is called:", script
+print "Your first variable is:" first
+
+#you'd then run:
+python script first second etc
+
+Ex14 = variable = raw_input("enter a string or a variable in here as your prompt")
+
+Ex15 "Reading Files"
+
+txt = open(filename) 
+print = txt.read()
+
+Ex16 "More Reading"
+
+target = open(filename, 'w') #write mode
+target.truncate() 
+
+target.write("string" or variable)
+target.write("%s\n%s\n%s" % (line1, line2, line3))
+
+Ex17
+
+from os.path import exists
+
+in_file = open(from_file)
+indata = in_file.read()
+
+out_file = open(to_file, 'w')
+out_file.write(indata)
+
+out_file.close()
+
+OR in 1 line
+open(argv[2], 'w').write(open(argv[1]).read())
+
+len(variable) #length of bytes
+
+Ex18
+
+def print_two(arg1, arg2):
+	print "arg1: %r, arg2: %r" % (arg1, arg2)
+
+Ex19
+
+def cheese_and_crackers(cheese_count, boxes_of_crackers):
+cheese_and_crackers(20,30)
+OR
+cheese_and_crackers (amount_of_cheese + 100,
+amount_of_crackers + 1000)
+
+Ex20
+
+def print_all(f)	
+
+
+
